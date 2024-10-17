@@ -1,0 +1,157 @@
+/* General Styles */
+.dashboard-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.dashboard-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-buttons button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header-buttons button:hover {
+  background-color: #0056b3;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+.left-column {
+  flex: 1;
+}
+
+.right-column {
+  flex: 2;
+}
+
+/* Card Styles */
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.new-users, .blog, .events-log {
+  margin-bottom: 20px;
+}
+
+.new-users a, .blog a, .events-log a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.new-users a:hover, .blog a:hover, .events-log a:hover {
+  text-decoration: underline;
+}
+
+/* Blog List */
+.blog ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blog ul li {
+  margin-bottom: 10px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.blog ul li:hover {
+  text-decoration: underline;
+}
+
+/* Chart Card */
+.chart-card h3 {
+  margin-bottom: 20px;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  text-align: center;
+}
+
+.stat-card h4 {
+  font-size: 14px;
+  color: #666;
+}
+
+.stat-card p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Trial Period */
+.trial-card {
+  background-color: #f9f9f9;
+}
+
+.trial-card h3 {
+  font-size: 16px;
+}
+
+.upgrade-button {
+  background-color: #ff1493;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.upgrade-button:hover {
+  background-color: #e60082;
+}
+
+.online-users h4 {
+  margin-top: 20px;
+}
+
+.online-users p {
+  margin: 0;
+}
+
+.online-users span {
+  color: #007bff;
+  cursor: pointer;
+}
+#invite{
+  color: white;
+  background-color: #00c49f;
+}
+#invite:hover{
+  background-color: #009c80;
+}
+.pie-chart{
+  height: 1000px;
+  width: 1000px;
+}
